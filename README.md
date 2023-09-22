@@ -11,7 +11,7 @@ yes | pkg install tur-repo
 yes | pkg install chromium
 yes | pkg install nodejs
 ```
-``
+```
 const puppeteer = require('puppeteer-core');
 const fs = require('fs');
 
