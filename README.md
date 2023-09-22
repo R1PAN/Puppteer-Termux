@@ -11,4 +11,4 @@ yes | pkg install tur-repo
 yes | pkg install chromium
 yes | pkg install nodejs
 ```
-![Alt text](https://github.com/R1PAN/Puppteer-Termux/blob/r/screenshot.jpg)
+![Alt text](https://github.com/R1PAN/Puppteer-Termux/blob/r/screenshot.jpg =300x200)
