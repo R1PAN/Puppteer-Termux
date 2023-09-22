@@ -11,7 +11,8 @@ yes | pkg install tur-repo
 yes | pkg install chromium
 yes | pkg install nodejs
 ```
-```
+#
+`````
 const puppeteer = require('puppeteer-core');
 const fs = require('fs');
 
@@ -42,5 +43,6 @@ async function screenshot(url) {
   await page.close();
   await browser.close();
 }
-``
+````
+
 <img src="https://github.com/R1PAN/Puppteer-Termux/blob/r/screenshot.jpg" alt="Alt text" width="300" height="200">
