@@ -1,8 +1,13 @@
 # Puppteer-Termux
 ## copy
 ```
-yes | pkg install x11-repo -y
-yes | pkg install tur-repo -y
-yes | pkg install chromium -y
-yes | pkg install nodejs -y
+yes | pkg update
+yes | pkg install git
+git clone https://github.com/R1PAN/Puppteer-Termux
+cd Puppteer-Termux
+unzip *zip
+yes | pkg install x11-repo
+yes | pkg install tur-repo
+yes | pkg install chromium
+yes | pkg install nodejs
 ```
